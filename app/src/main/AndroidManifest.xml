@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hfad.FoodAndGo">
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- @mipmap/ic_launcher" -->
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/food_and_go_icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <!--<service
+            android:name=".FetchAddressIntentService"
+            android:exported="false"/>-->
+        <activity
+            android:name="com.hfad.FoogAndGo.TopLevelActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hfad.FoogAndGo.SushiCategoryActivity"
+            android:label="@string/title_activity_drink_category"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.hfad.FoogAndGo.FoodActivity"
+            android:label="@string/title_activity_drink"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.hfad.FoogAndGo.OrderActivity"
+            android:label="@string/title_activity_order"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="com.hfad.FoogAndGo.DrinksCategoryActivity"
+            android:label="@string/title_activity_drinks_category"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name="com.hfad.FoogAndGo.DessertsCategoryActivity"
+            android:label="@string/title_activity_desserts_category"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

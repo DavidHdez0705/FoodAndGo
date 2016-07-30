@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Food and Go</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="food_and_go_logo">Food and Go logo</string>
+    <string name="price">Total:</string>
+    <string-array name="options">
+        <item>Sushi</item>
+        <item>Bebidas</item>
+        <item>Postres</item>
+    </string-array>
+    <string name="title_activity_drink_category">Sushi</string>
+    <string name="title_activity_drink">DrinkActivity</string>
+    <string name="favorite">Agregar/quitar de orden</string>
+    <string name="favorites">Orden:</string>
+    <string name="make_order">Pedir</string>
+    <string name="confirm">Confirmar</string>
+    <string name="title_activity_order">Food and Go</string>
+    <string name="title_activity_drinks_category">DrinksCategoryActivity</string>
+    <string name="title_activity_desserts_category">DessertsCategoryActivity</string>
+</resources>

@@ -1,0 +1,75 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.hfad.FoogAndGo.TopLevelActivity"
+              android:background="#ffffff">
+
+  <ImageView android:layout_width="200dp"
+             android:layout_height="100dp"
+
+             android:src="@drawable/food_and_go_logo"
+             android:contentDescription="@string/food_and_go_logo"
+             android:layout_gravity="center_horizontal"
+             android:layout_marginTop="10dp"/>
+
+  <ListView android:id="@+id/list_options"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:entries="@array/options"
+            android:layout_marginTop="10dp"
+            android:background="#ffffff"
+      android:clickable="false"
+      android:headerDividersEnabled="false" />
+
+  <TextView
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="10dp"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:text="@string/favorites"
+      android:layout_gravity="center_horizontal"/>
+
+  <ListView
+      android:id="@+id/list_favorites"
+      android:layout_gravity="center_horizontal"
+      android:layout_width="wrap_content"
+      android:layout_height="100dp"
+
+      />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="@string/price"
+            android:textSize="40dp"/>
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="$0"
+            android:textSize="40dp"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="@string/make_order"
+        android:id="@+id/orderB"
+        android:textSize="24dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#122297"
+        android:layout_marginTop="20dp"
+        android:onClick="confirm"/>
+
+
+</LinearLayout>

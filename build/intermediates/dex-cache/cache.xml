@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.3_d792989c6423e6ee92d325014ac28558875103f4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/admi/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.3_8a0a38f976cdb85b45c3999fcbc309ecce25aee9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.3_5c2053f5dcba0cb908cbf87c0fdfdeb3c1811870/classes.dex" />
+    </item>
+    <item
+        jar="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="9bdf5f00ee2b45a6ca4719c46ea0894b10e1e70f">
+        <dex dex="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_56f87a653133bac686f957be71480cd53f9618d3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="7bf8570b1f1fa78e0d505beba0a4b61f6c379a97">
+        <dex dex="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_5879f7e493bb5c94fd6d539947964dc7885a71f7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/admi/Desktop/FoodAndGo/FoodAndGo/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-21.0.3_726c148c37de99451ed46dcbe2edd002f51d1b77/classes.dex" />
+    </item>
+
+</items>
